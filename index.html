@@ -7,7 +7,7 @@
   <input id='PartyCode' type='text'>
   
   <script>
-    var ws = new WebSocket("ws://157.230.5.58:8765/rbxtest");
+    var ws = new WebSocket("wss://157.230.5.58:8765/rbxtest");
     
     ws.onmessage = function(response) {
       var msg = response.data;
